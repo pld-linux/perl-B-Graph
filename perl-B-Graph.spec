@@ -34,8 +34,8 @@ itself than anything else).
 
 %description -l pl
 Modu³ B::Graph jest backendem dla kompilatora Perla (B::*), który
-zamiast generowac kod po¶redni lub kod C w oparciu kompilowan± wersjê
-programu perlowego, wypisuje opisy w jezykach opisu grafów, tworz±c
+zamiast generowaæ kod po¶redni lub kod C w oparciu kompilowan± wersjê
+programu perlowego, wypisuje opisy w jêzykach opisu grafów, tworz±c
 grafy ukazuj±ce strukturê programu. Aktualnie generuje on opisy dla
 narzêdzi: VCG
 ("http://www.cs.uni-sb.de/RW/users/sander/html/gsvcg1.html") oraz Dot
