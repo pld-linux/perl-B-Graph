@@ -5,7 +5,7 @@ Summary:	B::Graph - Perl compiler backend to produce graphs of OP trees
 Summary(pl):	B::Graph - backend dla kompilatora Perla tworz±cy grafy drzew OP
 Name:		perl-B-Graph
 Version:	0.51
-Release:	5
+Release:	6
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
