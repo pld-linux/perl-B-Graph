@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	B
 %define		pnam	Graph
-Summary:	B-Graph perl module
-Summary(pl):	Modu³ perla B-Graph
+Summary:	B::Graph perl module
+Summary(pl):	Modu³ perla B::Graph
 Name:		perl-B-Graph
 Version:	0.51
 Release:	4
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-B-Graph - Perl Compiler backend to diagram OP trees.
+B::Graph - Perl Compiler backend to diagram OP trees.
 
 %description -l pl
-Modu³ perla B-Graph.
+Modu³ perla B::Graph.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
