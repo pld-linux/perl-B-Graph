@@ -3,7 +3,7 @@ Summary:	B-Graph perl module
 Summary(pl):	Modu³ perla B-Graph
 Name:		perl-B-Graph
 Version:	0.51
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
