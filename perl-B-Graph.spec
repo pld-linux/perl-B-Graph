@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	B
-%define		pnam	Graph
+%define	pdir	B
+%define	pnam	Graph
 Summary:	B::Graph - Perl compiler backend to produce graphs of OP trees
 Summary(pl):	B::Graph - backend dla kompilatora Perla tworz±cy grafy drzew OP
 Name:		perl-B-Graph
