@@ -1,4 +1,4 @@
-%define		perl_sitelib	%(eval "`perl -V:installsitelib`"; echo $installsitelib)
+%include	/usr/lib/rpm/macros.perl
 Summary:	B-Graph perl module
 Summary(pl):	Modu³ perla B-Graph
 Name:		perl-B-Graph
@@ -8,7 +8,8 @@ Copyright:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/B/B-Graph-%{version}.tar.gz
-BuildRequires:	perl >= 5.005_03-10
+BuildRequires:	rpm-perlprov
+BuildRequires:	perl >= 5.005_03-12
 %requires_eq	perl
 Requires:	%{perl_sitearch}
 BuildRoot:	/tmp/%{name}-%{version}-root
@@ -17,7 +18,7 @@ BuildRoot:	/tmp/%{name}-%{version}-root
 B-Graph - Perl Compiler backend to diagram OP trees.
 
 %description -l pl
-Modu³ perla B-Graph 
+Modu³ perla B-Graph.
 
 %prep
 %setup -q -n B-Graph-%{version}
