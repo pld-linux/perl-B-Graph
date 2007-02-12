@@ -6,7 +6,7 @@
 %define		pdir	B
 %define		pnam	Graph
 Summary:	B::Graph - Perl compiler backend to produce graphs of OP trees
-Summary(pl):	B::Graph - backend dla kompilatora Perla tworz±cy grafy drzew OP
+Summary(pl.UTF-8):   B::Graph - backend dla kompilatora Perla tworzÄ…cy grafy drzew OP
 Name:		perl-B-Graph
 Version:	0.51
 Release:	7
@@ -32,17 +32,17 @@ generates descriptions for the VCG tool
 plain text output (which is more useful for debugging the module
 itself than anything else).
 
-%description -l pl
-Modu³ B::Graph jest backendem dla kompilatora Perla (B::*), który
-zamiast generowaæ kod po¶redni lub kod C w oparciu kompilowan± wersjê
-programu perlowego, wypisuje opisy w jêzykach opisu grafów, tworz±c
-grafy ukazuj±ce strukturê programu. Aktualnie generuje on opisy dla
-narzêdzi: VCG
+%description -l pl.UTF-8
+ModuÅ‚ B::Graph jest backendem dla kompilatora Perla (B::*), ktÃ³ry
+zamiast generowaÄ‡ kod poÅ›redni lub kod C w oparciu kompilowanÄ… wersjÄ™
+programu perlowego, wypisuje opisy w jÄ™zykach opisu grafÃ³w, tworzÄ…c
+grafy ukazujÄ…ce strukturÄ™ programu. Aktualnie generuje on opisy dla
+narzÄ™dzi: VCG
 ("http://www.cs.uni-sb.de/RW/users/sander/html/gsvcg1.html") oraz Dot
-(czê¶æ zestawu narzêdziowego AT&T do wizualizacji
-grafów:"http://www.research.att.com/sw/tools/graphviz/"). Potrafi on
-równie¿ generowaæ czysto tekstowy wynik (który jest bardziej przydatny
-do odpluskwiania samego modu³u, ni¿ do czegokolwiek innego).
+(czÄ™Å›Ä‡ zestawu narzÄ™dziowego AT&T do wizualizacji
+grafÃ³w:"http://www.research.att.com/sw/tools/graphviz/"). Potrafi on
+rÃ³wnieÅ¼ generowaÄ‡ czysto tekstowy wynik (ktÃ³ry jest bardziej przydatny
+do odpluskwiania samego moduÅ‚u, niÅ¼ do czegokolwiek innego).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
