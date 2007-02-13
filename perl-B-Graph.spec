@@ -6,7 +6,7 @@
 %define		pdir	B
 %define		pnam	Graph
 Summary:	B::Graph - Perl compiler backend to produce graphs of OP trees
-Summary(pl.UTF-8):   B::Graph - backend dla kompilatora Perla tworzący grafy drzew OP
+Summary(pl.UTF-8):	B::Graph - backend dla kompilatora Perla tworzący grafy drzew OP
 Name:		perl-B-Graph
 Version:	0.51
 Release:	7
