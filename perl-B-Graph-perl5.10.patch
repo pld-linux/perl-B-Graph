@@ -1,0 +1,14 @@
+--- B-Graph-0.51/Graph.pm.orig	2001-01-01 04:51:11.000000000 +0100
++++ B-Graph-0.51/Graph.pm	2008-02-17 18:24:14.397494562 +0100
+@@ -5,9 +5,8 @@
+ package B::Graph;
+ $VERSION = "0.51";
+ 
+-use 5.004; # Some 5.003_??s might work; most recently tested w/5.005
+-use B qw(class main_start main_root main_cv sv_undef svref_2object ppname);
+-use B::Asmdata qw(@specialsv_name);
++use 5.010;
++use B qw(class main_start main_root main_cv sv_undef svref_2object ppname @specialsv_name);
+ 
+ use strict;
+ 
